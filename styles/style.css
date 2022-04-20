@@ -28,7 +28,7 @@ body {
     --gutter: 30px;
     --footer-height: 30px;
 
-    font-family: 'Hubballi', cursive;;
+    font-family: 'IM Fell French Canon SC', serif;;
     background-color: var(--color2);
 }
 
@@ -37,7 +37,15 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10%;
     margin-bottom: calc(var(--footer-height));
+}
+
+#my-info {
+    background-color: rgb(241, 163, 39);
+    line-height: 25px;
+    text-align: center;
+    border-radius: 25px;
 }
 
 section {
@@ -57,9 +65,10 @@ section {
 header {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: rgb(241, 163, 39);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    letter-spacing: 5px;
 }
 
 h2 {
