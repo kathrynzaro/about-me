@@ -9,9 +9,11 @@ const renly = document.getElementById('hidden-cat');
 
 // set event listeners 
 button.addEventListener('click', () => {
-    if (nameEl.textContent === 'Kat') {
-        nameEl.textContent = 'Kathryn Zaro';
-    } 
+    if (nameEl.textContent === 'KAT!') {
+        nameEl.textContent = 'timothy! jk it\'s short for kathryn.';
+    } else {
+        nameEl.textContent = 'KAT!'
+    }
 })
 
 showCat.addEventListener('click', () => {
