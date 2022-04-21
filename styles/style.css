@@ -65,7 +65,7 @@ main {
 #fav-animal {
     background-color: rgb(241, 163, 39);
     border-radius: 15px;
-    padding: 30px;
+    /* padding: 30px; */
     letter-spacing: 2px;
     text-align: center;
 }
@@ -80,7 +80,7 @@ main {
 
 #renly {
     border-radius: 15px;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 #renly-button {
@@ -90,7 +90,7 @@ main {
     background-color: white;
     padding: 5px;
     border-radius: 5px;
-    margin-top: 15px;
+    /* margin-top: 5px; */
 }
 
 #renly-button:hover {
