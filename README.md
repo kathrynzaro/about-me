@@ -11,20 +11,24 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 - `header`
 - `section`
 - `h1`
+- `span`
 - `p`
 - `button`
 - `section`
 - `div`
 - `p`
+- `img`
 - `button`
 1. **For each HTML element ask: Why do I need this?**
 - `header` to show **About Me**
 - `section` for my info
     - `h1` for my name
+    - `span` around name
     - `p` for pronouns/where I live
     - `button` to show full name
 - `section` or `div` for favorite animal
     - `p` for **Favorite Animal**
+    - `img` for renly
     - `button` to show hidden photo of my cat
 1. **Once we know _why_ we need each element, think about how to implement the "Why" as a "How"**
 

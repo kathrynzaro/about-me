@@ -66,6 +66,16 @@ main {
     background-color: rgb(241, 163, 39);
     border-radius: 15px;
     padding: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#hidden-cat {
+    font-size: 14px;
+}
+
+.hidden {
+    display: none;
 }
 
 #renly {
@@ -80,7 +90,7 @@ main {
     background-color: white;
     padding: 5px;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 #renly-button:hover {
