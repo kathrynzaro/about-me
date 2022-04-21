@@ -12,13 +12,13 @@ button.addEventListener('click', () => {
     if (nameEl.textContent === 'KAT!') {
         nameEl.textContent = 'timothy! jk it\'s short for kathryn.';
     } else {
-        nameEl.textContent = 'KAT!'
+        nameEl.textContent = 'KAT!';
     }
-})
+});
 
 showCat.addEventListener('click', () => {
     renly.classList.toggle('hidden');
-})
+});
     // get user input
     // use user input to update state 
     // update DOM to reflect the new state
